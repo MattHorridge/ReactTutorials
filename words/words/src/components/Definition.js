@@ -1,18 +1,18 @@
 import React from 'react';
 
-class Definition extends React.Component{
-    state = {definition: 'Test Definition'}
 
 
-    render(){
-        return (
-            <div className="ui segment">
-            <div>{this.state.definition}</div>
-        </div>
+const Definition = ({definition}) => {
 
-        );
-    }
+    return (
+        <div className="ui segment">
+        <div>{definition}</div>
+    </div>
+
+    );
+
 
 }
+
 
 export default Definition;

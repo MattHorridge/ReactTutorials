@@ -6,7 +6,7 @@ class NewButton extends React.Component{
     render() {
         return (
             <div>
-                <button class="ui button active">New Word</button>
+                <button className="ui button active">New Word</button>
             </div>
 
         );

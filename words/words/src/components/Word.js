@@ -1,18 +1,17 @@
 import React from 'react';
 
-class Word extends React.Component {
 
-    state = {word: 'Test'}
+const Word = ({word}) => {
 
-    render(){
-        return (
-            <div className="ui segment">
-                <div>{this.state.word}</div>
-            </div>
+    return (
+        <div className="ui segment">
+        <div>{word}</div>
+    </div>
 
-        );
-    }
+    );
+
 
 }
+
 
 export default Word;
