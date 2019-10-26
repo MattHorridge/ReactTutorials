@@ -31,13 +31,14 @@ class StreamForm extends React.Component{
     }
 
     render(){
-        
         return ( 
             <form onSubmit={this.props.handleSubmit(this.onSubmit)} className="ui form error">
                 <Field 
                 name="title" 
                 component={this.renderInput} 
-                label="Enter a title"/>
+                label="Enter a title"
+            
+                />
                 <Field 
                 name="description" 
                 component={this.renderInput} 
@@ -49,6 +50,7 @@ class StreamForm extends React.Component{
         );
     }
 }
+
 
 
 const validate = (formValues) => {
