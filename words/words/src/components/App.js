@@ -5,7 +5,7 @@ import axios from 'axios';
 import './css/App.css';
 
 const BASE_URL = 'https://api.wordnik.com/v4/words.json/';
-const KEY = '0ojvnoftdc7dgnir2pessrp599gh2xix53t98j14g5rg6n8id';
+
 
 class App extends React.Component {
     
