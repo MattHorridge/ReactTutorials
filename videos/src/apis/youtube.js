@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-
-const KEY = 'AIzaSyAMgcGlebFsXd-GtPf0_iJl-uGChGTROeg';
+//dont want the actual key here
+const KEY = '';
 
 
 export default axios.create({
